@@ -22,7 +22,7 @@ But however you run it you need a few things-
 
 
 You can find all the types supported here - https://docs.spring.io/spring/docs/3.0.x/javadoc-api/org/springframework/http/MediaType.html
-* Now you can run the application on localhost as - $ gradle bootRun
+* Now you can run the application on localhost as - ``$ gradle bootRun``
 If there are any errors just check the stacktrace. If running on heroku skip this step.
 * You can go to your browser and run the application according to the mappings in MainController.java
 For example, you can download and display a file in your browser by with the following command -
@@ -48,3 +48,6 @@ Now you can upload the file easily using the following URl -
 ``` 
   http://localhost:8080/demo/upload
 ```
+`````
+Note that you will need to have an instance of MYSql running if working on the localhost.
+`````
