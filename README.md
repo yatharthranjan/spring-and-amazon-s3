@@ -15,7 +15,11 @@ But however you run it you need a few things-
 * Now that you have set up everything, create a new bucket in the S3 management console and name it - `spring-mysql-test`
 * Now place some files inside this bucket so you can download them.
 * You can now change the type of content, according to the content in the bucket, in the MainController.java file here- 
-[add screen shot of function body]
+
+
+![Alt text](/images/Screen2.png "Main Page")
+
+
 
 You can find all the types supported here - https://docs.spring.io/spring/docs/3.0.x/javadoc-api/org/springframework/http/MediaType.html
 * Now you can run the application on localhost as - $ gradle bootRun
@@ -29,9 +33,16 @@ http://localhost:8080/demo/viewpic?fname=image3.png&key=Screenshot_20170618-2148
 ```
 Here, 'image3.png' can be replaced by the file you want to store the downloaded file in and 'Screenshot_20170618-214818.png' should be replaced by the key of your file in the bucket.
 
-* For uploading a file put it in the root folder of this repository like 'me' file in this screenshot - [add screnshot of structure]
-* Then change the name of the file in the MainController.java as shown in the screenshot - 
-[add screenshot]
+* For uploading a file put it in the root folder of this repository like 'me' file in this screenshot - 
+
+![Alt text](/images/Screen1.png "Main Page")
+
+
+* Then change the name of the file in the MainController.java as it is in the directory - 
+
+![Alt text](/images/Screen3.png "Main Page")
+
+
 Now you can upload the file easily using the following URl - 
 
 ``` 
